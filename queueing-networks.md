@@ -35,16 +35,16 @@ This defines a markov distributed arrival and service process with a single serv
   
 #### Exact M/M/1 Solutions:
 Additional notation:
-> **µ**: rate of exponentially distributed service time.<br>
+> **µ**: rate of exponentially distributed service time. In units: jobs/s.<br>
 > **1/µ**: service time. <br>
-> **λ**: rate of arrival Poisson process.<br>
+> **λ**: rate of arrival as a Poisson process.<br>
 > **ρ = λ/µ**: server utilization. Only stable when λ < µ<br>
 
 Some steady state formulas:
 
-> `N = ρ / (1 - ρ)` describes the mean jobs in system:<br>
-> `N = ρ^2 / (1 - ρ)` describes mean jobs in queue: <br>
-> `Rs = 1 / (µ - λ` is system residence time: <br>
+> `N = ρ/(1 - ρ)` describes the mean jobs in system:<br>
+> `N = ρ^2/(1 - ρ)` describes mean jobs in queue: <br>
+> `Rs = 1/(µ - λ)` is system residence time: <br>
 > `Rq = ρ/(μ − λ)` is queue residence time: 
 
 Some types of service center architectures:
