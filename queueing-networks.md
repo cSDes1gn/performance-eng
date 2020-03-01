@@ -148,7 +148,7 @@ Bottleneck service center is the service center with the highest demand *D<sub>m
 
 **Throughput Upper Bound** occurs when the bottleneck center reaches saturation: *U<sub>max</sub>(λ) = λ * D<sub>max</sub> <= 1*. Recall at saturation *U<sub>max</sub> = 1* therefore *λ<sub>max</sub> = 1 / D<sub>max</sub>*.
 
-**Response Time Lower Bound** occurs when the system is at a very low load. The total service received by a job without any queueing: *R (λ) >= D* 
+**Response Time Lower Bound** occurs when the system is at a very low load. The total service received by a job without any queueing: *R (λ) >= D*. Where *D = Σ D<sub>i</sub>*.
 
 ### Closed Systems
 
